@@ -37,7 +37,6 @@ def recieve_data():
             grid.game_over = True
         if grid.get_cell_value(x, y) == 0:
             grid.set_cell_value(x, y, 'O')
-        print(data)
 
 
 def waiting_for_connection():

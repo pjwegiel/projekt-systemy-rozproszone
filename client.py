@@ -34,7 +34,6 @@ def recieve_data():
             grid.game_over = True
         if grid.get_cell_value(x, y) == 0:
             grid.set_cell_value(x, y, 'X')
-        print(data)
 
 
 create_thread(recieve_data)
